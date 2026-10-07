@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace !important;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0a0f1d;
+    background-image: linear-gradient(rgba(10, 20, 50, 0.75), rgba(10, 20, 50, 0.75)),
+                      url("indiancomputerlab.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Top Result Banner */
+#output1 {
+    width: 100%;
+    min-height: 38px;
+    background-color: #00ff00;
+    color: #000000;
+    font-weight: bold;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 8px 20px;
+    box-shadow: 0 2px 10px rgba(0, 255, 0, 0.3);
+}
+
+.main-wrapper {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Outer Dark Blue Container */
+.outer-card {
+    background-color: #121824;
+    border: 1px solid #1e293b;
+    border-radius: 18px;
+    padding: 40px 30px;
+    width: 440px;
+    max-width: 90vw;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+}
+
+.title-heading {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0 0 6px 0;
+    letter-spacing: 1px;
+}
+
+.txt-white { color: #ffffff; }
+.txt-green { color: #20c997; }
+.txt-red   { color: #ff3344; }
+
+.subtitle-text {
+    color: #cccccc;
+    font-size: 11px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+/* Inner Grey Form Area */
+.inner-card {
+    background-color: #2a2a2a;
+    border-radius: 12px;
+    padding: 25px 20px;
+    text-align: left;
+}
+
+.input-label {
+    display: block;
+    color: #ffffff;
+    font-size: 13px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.text-input {
+    width: 100%;
+    padding: 10px 12px;
+    background-color: #000000;
+    border: 1px solid #444444;
+    border-radius: 4px;
+    color: #cccccc;
+    font-size: 13px;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+.text-input::placeholder {
+    color: #777777;
+}
+
+/* Bright Blue Submit Button */
+.continue-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0033ff;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+}
+
+.continue-button:hover {
+    background-color: #0022cc;
+}
+
+/* Bottom Footer */
+footer {
+    background-color: #222222;
+    color: #dddddd;
+    text-align: center;
+    padding: 12px;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+}

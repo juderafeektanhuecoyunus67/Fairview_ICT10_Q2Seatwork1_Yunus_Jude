@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICT CLUB VERIFIER</title>
+
+    <!-- PyScript Core CSS and JavaScript CDN Resources -->
+    <link rel="stylesheet" href="https://pyscript.net/releases/2026.7.3/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2026.7.3/core.js"></script>
+
+    <!-- External CSS Stylesheet -->
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+    <!-- Top Full-Width Result Banner -->
+    <div id="output1"></div>
+
+    <div class="main-wrapper">
+        <!-- Main Dark Container -->
+        <div class="outer-card">
+            <!-- Header Title -->
+            <h1 class="title-heading">
+                <span class="txt-white">ICT</span> 
+                <span class="txt-green">CLUB</span> 
+                <span class="txt-red">VERIFIER</span>
+            </h1>
+            <div class="subtitle-text">CANDIDATE VERIFICATION SYSTEM</div>
+
+            <!-- Inner Input Form Box -->
+            <div class="inner-card">
+                <label for="first_name" class="input-label">First name:</label>
+                <input type="text" id="first_name" class="text-input" placeholder="Enter here">
+                <label for="Last_name" class="input-label">Last name:</label>
+                <input type="text" id="Last_name" class="text-input" placeholder="Enter here">
+                <button type="submit" class="continue-button" py-click="verify_candidate">Continue</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bottom Footer Bar -->
+    <footer>
+        © 2026 ICT Club • Seatwork 2 • 2nd Quarter
+    </footer>
+
+    <!-- PyScript Python Script Binding -->
+    <script type="py" src="main.py"></script>
+</body>
+</html>
